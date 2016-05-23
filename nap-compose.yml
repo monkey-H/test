@@ -2,7 +2,7 @@ web:
   image: docker.iwanna.xyz:5000/web-php
   stateless: true
   scale: 2
-  port: 5000
+  port: 80
   ports:
     - 5000
     - 20
