@@ -1,5 +1,5 @@
 web:
-  image: docker.iwanna.xyz:5000/hmonkey/webapp:v2
+  image: docker.iwanna.xyz:5000/web-php
   stateless: true
   scale: 2
   port: 5000
