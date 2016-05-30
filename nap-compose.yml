@@ -1,7 +1,7 @@
 web:
   image: docker.iwanna.xyz:5000/web-php
   stateless: true
-  scale: 2
+  dynamic_scale: true
   port: 80
 db:
   image: busybox
