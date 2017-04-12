@@ -3,7 +3,6 @@ web:
   stateless: true
   dynamic_scale: true
   port: 80
-  cpus: 1
 db:
   image: busybox
   command: /bin/sleep 300
