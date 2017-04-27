@@ -1,5 +1,5 @@
 web:
-  image: docker.iwanna.xyz:5000/web-php:v2
+  image: docker.iwanna.xyz:5000/web-php
   stateless: true
   dynamic_scale: true
   port: 80
