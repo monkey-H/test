@@ -5,5 +5,5 @@ web:
   depends: db
   port: 80
 db:
-  image: busybox
+  image: docker.iwanna.xyz:5000/mysql
   command: /bin/sleep 300
