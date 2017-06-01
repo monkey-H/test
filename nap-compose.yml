@@ -2,8 +2,7 @@ web:
   image: docker.iwanna.xyz:5000/web-php
   stateless: true
   dynamic_scale: true
-  depends: db
   port: 80
 db:
-  image: docker.iwanna.xyz:5000/mysql
+  image: busybox
   command: /bin/sleep 300
